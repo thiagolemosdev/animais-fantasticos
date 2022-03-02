@@ -13,7 +13,6 @@ if (
   (horarioAgora >= horarioSemana[0]) &
   (horarioAgora < horarioSemana[horarioSemana.length - 1])
 ) {
-  console.log("ok");
   funcionamento.classList.add("aberto");
 }
 
