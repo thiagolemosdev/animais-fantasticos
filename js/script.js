@@ -1,0 +1,21 @@
+import initAccordionList from "./modules/accordion.js";
+import initAnimaScroll from "./modules/anima-scroll.js";
+import initScrollSuave from "./modules/scroll-suave.js";
+import initTabNav from "./modules/tab-nav.js";
+import abreFechaModal from "./modules/modal.js";
+import tooltip from "./modules/tooltip.js";
+import dropdownMenu from "./modules/dropdown-menu.js";
+import initMenuMobile from "./modules/menu-mobile.js";
+import initAnimaNumeros from "./modules/anima-numeros.js";
+import initFuncionamento from "./modules/funcionamento.js";
+
+initTabNav();
+initAnimaScroll();
+initScrollSuave();
+initAccordionList();
+abreFechaModal();
+tooltip();
+dropdownMenu();
+initMenuMobile();
+initAnimaNumeros();
+initFuncionamento();
